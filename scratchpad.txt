@@ -1,0 +1,6 @@
+table: fave
+
+title: VARCHAR
+imdbID: VARCHAR
+
+sequelize model:create --name fave --attributes title:string,imdbID:string
